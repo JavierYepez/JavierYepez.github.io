@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="590px" viewBox="0 0 80 590" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <g id="Joy_btn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="unpressed" stroke="#4E4E4E" stroke-width="4" fill="#B4B4B4" cx="40" cy="40" r="38"></circle>
+        <g id="Soft_puf" transform="translate(-1.000000, 85.000000)">
+            <circle id="soft_puf" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <circle id="soft_puf" stroke="#CB2929" stroke-width="4" fill-opacity="0.6" fill="#CB2929" cx="40" cy="40" r="38"></circle>
+            <g id="Group" transform="translate(23.500000, 30.000000)" stroke="#EFEFEF" stroke-linecap="round" stroke-width="2">
+                <g id="Path">
+                    <path d="M0,10 L16.5077221,0.56701593 C17.1225875,0.215664309 17.8774125,0.215664309 18.4922779,0.56701593 L35,10 L35,10"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Puf" transform="translate(0.000000, 170.000000)">
+            <circle id="puf" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <circle id="puf" stroke="#CB2929" stroke-width="4" fill-opacity="0.87" fill="#CB2929" cx="40" cy="40" r="38"></circle>
+            <g id="Group" transform="translate(22.500000, 30.000000)" stroke="#EFEFEF" stroke-linecap="round" stroke-width="2">
+                <g id="Path">
+                    <path d="M0,10 L16.5077221,0.56701593 C17.1225875,0.215664309 17.8774125,0.215664309 18.4922779,0.56701593 L35,10 L35,10"></path>
+                    <path d="M0,15 L16.5077221,5.56701593 C17.1225875,5.21566431 17.8774125,5.21566431 18.4922779,5.56701593 L35,15 L35,15"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Hard_puf" transform="translate(0.000000, 255.000000)">
+            <circle id="hard_puf" fill-opacity="0.8" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <circle id="hard_puf" stroke="#CB2929" stroke-width="4" fill-opacity="0.95" fill="#CB2929" cx="40" cy="40" r="38"></circle>
+            <g id="Group" transform="translate(22.500000, 30.000000)" stroke="#EFEFEF" stroke-linecap="round" stroke-width="2">
+                <g id="Path">
+                    <path d="M0,10 L16.5077221,0.56701593 C17.1225875,0.215664309 17.8774125,0.215664309 18.4922779,0.56701593 L35,10 L35,10"></path>
+                    <path d="M0,15 L16.5077221,5.56701593 C17.1225875,5.21566431 17.8774125,5.21566431 18.4922779,5.56701593 L35,15 L35,15"></path>
+                    <path d="M0,20 L16.5077221,10.5670159 C17.1225875,10.2156643 17.8774125,10.2156643 18.4922779,10.5670159 L35,20 L35,20"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Soft_sip" transform="translate(0.000000, 340.000000)">
+            <circle id="soft_sip" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <circle id="soft_sip" stroke="#2943CB" stroke-width="4" fill-opacity="0.6" fill="#2943CB" cx="40" cy="40" r="38"></circle>
+            <g id="Group" transform="translate(22.500000, 40.000000)" stroke="#EFEFEF" stroke-linecap="round" stroke-width="2">
+                <g id="Path">
+                    <path d="M0,10 L16.5077221,0.56701593 C17.1225875,0.215664309 17.8774125,0.215664309 18.4922779,0.56701593 L35,10 L35,10" transform="translate(17.500000, 5.000000) scale(1, -1) translate(-17.500000, -5.000000) "></path>
+                </g>
+            </g>
+        </g>
+        <g id="Sip" transform="translate(0.000000, 425.000000)">
+            <circle id="sip" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <circle id="sip" stroke="#2943CB" stroke-width="4" fill-opacity="0.87" fill="#2943CB" cx="40" cy="40" r="38"></circle>
+            <g id="Group" transform="translate(22.500000, 35.000000)" stroke="#EFEFEF" stroke-linecap="round" stroke-width="2">
+                <g id="Sip">
+                    <path d="M0,15 L16.5077221,5.56701593 C17.1225875,5.21566431 17.8774125,5.21566431 18.4922779,5.56701593 L35,15 L35,15" id="Path" transform="translate(17.500000, 10.000000) scale(1, -1) translate(-17.500000, -10.000000) "></path>
+                    <path d="M0,10 L16.5077221,0.56701593 C17.1225875,0.215664309 17.8774125,0.215664309 18.4922779,0.56701593 L35,10 L35,10" id="Path" transform="translate(17.500000, 5.000000) scale(1, -1) translate(-17.500000, -5.000000) "></path>
+                </g>
+            </g>
+        </g>
+        <g id="Hard_sip" transform="translate(0.000000, 510.000000)">
+            <circle id="hard_sip" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <circle id="hard_sip" stroke="#2943CB" stroke-width="4" fill-opacity="0.95" fill="#2943CB" cx="40" cy="40" r="38"></circle>
+            <g id="Group" transform="translate(22.500000, 30.000000)" stroke="#EFEFEF" stroke-linecap="round" stroke-width="2">
+                <g id="Path">
+                    <path d="M0,20 L16.5077221,10.5670159 C17.1225875,10.2156643 17.8774125,10.2156643 18.4922779,10.5670159 L35,20 L35,20" transform="translate(17.500000, 15.000000) scale(1, -1) translate(-17.500000, -15.000000) "></path>
+                    <path d="M0,15 L16.5077221,5.56701593 C17.1225875,5.21566431 17.8774125,5.21566431 18.4922779,5.56701593 L35,15 L35,15" transform="translate(17.500000, 10.000000) scale(1, -1) translate(-17.500000, -10.000000) "></path>
+                    <path d="M0,10 L16.5077221,0.56701593 C17.1225875,0.215664309 17.8774125,0.215664309 18.4922779,0.56701593 L35,10 L35,10" transform="translate(17.500000, 5.000000) scale(1, -1) translate(-17.500000, -5.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
