@@ -161,8 +161,8 @@ the CSS inline. */
 } */
 
 /* Start Button */
-.custom .button-start > .joystick_button3{
-    background-position-y: -340px;
+.custom .button-start > .joystick_button1, .custom .button-start > .joystick_button2, .custom .button-start > .joystick_button3{
+    background-position-y: -85px;
 }
 
 /* DPad N Button */
