@@ -35,7 +35,7 @@ start and select buttons.  */
     width: 150px;
     height: 95px;
     top: 190px;
-    left: 135px;
+    left: 136px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
