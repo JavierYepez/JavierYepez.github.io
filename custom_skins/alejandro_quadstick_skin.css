@@ -24,16 +24,18 @@ start and select buttons.  */
 .custom .back, .custom .start{
 }
 .custom .back.pressed{
-    background-position-y: -185px;
+    background-position-y: -105px;
     margin-top: 2px;
 }
 .custom .back{
     position: absolute;
     background: url(https://raw.githubusercontent.com/JavierYepez/JavierYepez.github.io/master/assets/lip_button.svg);
-    width: 180px;
-    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 95px;
     top: 190px;
-    left: 120px;
+    left: 135px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
