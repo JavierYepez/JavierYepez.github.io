@@ -130,7 +130,7 @@ the CSS inline. */
 
 /* Right stick Button */
 .custom .stick-2 > .joystick_button1, .custom .stick-2 > .joystick_button2, .custom .stick-2 > .joystick_button3 {
-    background-position-y: -170px;
+    background-position-y: -340px;
 }
 
 /* LT Button */
