@@ -153,8 +153,8 @@ the CSS inline. */
 }
 
 /* Left stick Button */
-.custom .stick-1 > .joystick_button1 {
-    background-position-y: -340px;
+.custom .stick-1 > .joystick_button1, .custom .stick-1 > .joystick_button2, .custom .stick-1 > .joystick_button3 {
+    background-position-y: -170px;
 }
 
 /* Guide Button 
