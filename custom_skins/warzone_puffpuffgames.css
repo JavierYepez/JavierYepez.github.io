@@ -1,0 +1,191 @@
+/*
+Created following the example code on:
+https://gist.github.com/mrmcpowned/31eddbc3f8344ee69799
+*/
+
+/*BEGIN Quadstick Controller Styling*/
+.controller.custom{
+    background: url(https://raw.githubusercontent.com/JavierYepez/JavierYepez.github.io/master/assets/Base.svg);
+    height: 420px;
+    width: 800px;
+}
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url(https://raw.githubusercontent.com/JavierYepez/JavierYepez.github.io/master/assets/Base.svg);
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+/* This is to size and position the containing div for the 
+start and select buttons.  */
+.custom .arrows{
+}
+/* Setting the size and CSS sprite for the start adn select buttons */
+.custom .back, .custom .start{
+}
+.custom .back.pressed{
+    background-position-y: -82px;
+    margin-top: 2px;
+}
+.custom .back{
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/JavierYepez/JavierYepez.github.io/master/assets/lip_button.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 80px;
+    top: 190px;
+    left: 150px;
+}
+/* Analog sticks follow the same principles as the triggers in terms of positioning
+Note that the rotation of the sticks in hard coded with javascript, so it applies 
+the CSS inline. */
+.custom .sticks{
+    position: relative;
+    height:117px;
+    width: 420px;
+    top: 152px;
+    left: 170px;
+}
+.custom .stick{
+    position: absolute;
+    height:120px;
+    width: 420px;
+    
+}
+.custom .stick.pressed.left{
+    background-position-x: -106px;
+}
+.custom .stick.pressed.right{
+    background-position-x: -211px;
+}
+.custom .stick.left{
+    background: url(https://raw.githubusercontent.com/JavierYepez/JavierYepez.github.io/master/assets/joystick.svg);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.custom .stick.right{
+    display: none;
+    background: url(https://raw.githubusercontent.com/JavierYepez/JavierYepez.github.io/master/assets/right_joystick.svg);
+    top: calc(140px / 2);
+    left: calc(320px + 420px / 2 + 60px);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.custom .joystick_button1, .custom .joystick_button2, .custom .joystick_button3 {
+    background: url(https://raw.githubusercontent.com/JavierYepez/JavierYepez.github.io/master/assets/quadstick_buttons.svg);
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+    top: 21px;
+}
+
+.custom .joystick_button1 {
+    left: 40px;
+}
+
+.custom .joystick_button2 {
+    left: 88px;
+}
+
+.custom .joystick_button3 {
+    left: 134px;
+}
+/* A Button (triple sip) */
+/*.custom .button-1 > .joystick_button1 {
+    margin-bottom: 2px;
+}*/
+
+.custom  .button-1 > .joystick_button1, .custom  .button-1 > .joystick_button2, .custom  .button-1 > .joystick_button3 {
+    background-position-y: -425px;
+}
+
+/* B Button  (digital in 2) */
+/*.custom  .button-2 > .joystick_button1 {
+    background-position-y: -425px;
+}*/
+
+/* X Button (left center puff) */
+.custom .button-3 > .joystick_button1, .custom .button-3 > .joystick_button2 {
+    background-position-y: -170px;
+}
+
+/* Y Button (right center puff) */
+.custom .button-4 > .joystick_button2, .custom .button-4 > .joystick_button3 {
+    background-position-y: -170px;
+}
+
+/* RT Button (digital in 1) */
+/*.custom .button-right-shoulder-bottom > .joystick_button2, .custom .button-right-shoulder-bottom-digital > .joystick_button2 {
+    background-position-y: -170px;
+}*/
+
+/* RB Button (left puff) */
+.custom .button-right-shoulder-top > .joystick_button1 {
+    background-position-y: -170px;
+}
+
+/* Right stick Button */
+/*.custom .stick-2 > .joystick_button1, .custom .stick-2 > .joystick_button2, .custom .stick-2 > .joystick_button3 {
+    background-position-y: -170px;
+}*/
+
+/* LT Button (center puff) */
+.custom .button-left-shoulder-bottom > .joystick_button2, .custom .button-left-shoulder-bottom-digital > .joystick_button2 {
+    background-position-y: -170px;
+}
+
+/* LB Button (WIP) */
+.custom .button-left-shoulder-top > .joystick_button1 {
+    background-position-y: -170px;
+}
+
+/* RB and LB Button (ability no needed) */
+/*.custom .button-right-shoulder-top.button-left-shoulder-top > .joystick_button1 {
+    background-position-y: -425px;
+}
+
+.custom .button-right-shoulder-top.button-left-shoulder-top > .joystick_button3 {
+    background-position-y: 0px;
+}*/
+
+/* Left stick Button */
+/*.custom .stick-1 > .joystick_button1 {
+    background-position-y: -340px;
+}*/
+
+/* Guide Button 
+.custom .button-1 > .joystick_button2 {
+    background-position-y: -340px;
+} */
+
+/* Start Button (right sip soft) */
+.custom .button-start > .joystick_button3 {
+    background-position-y: -350px;
+}
+
+/* DPad N Button (right sip) */
+.custom .button-dpad-top > .joystick_button3 {
+    background-position-y: -425px;
+}
+
+/* DPad E Button (lip soft?) */
+/*.custom .button-dpad-right > .joystick_button2, .custom .button-dpad-right > .joystick_button3 {
+    background-position-y: -85px;
+}*/
+
+/* DPad S Button (center puff soft) */
+.custom .button-dpad-bottom > .joystick_button2 {
+    background-position-y: -85px;
+}
+
+/* DPad W Button (triple sip soft) */
+.custom .button-dpad-left > .joystick_button1, .custom .button-dpad-left > .joystick_button2, .custom .button-dpad-left > .joystick_button3 {
+    background-position-y: -425px;
+}
+
+/*END Quadstick Controller Styling*/
